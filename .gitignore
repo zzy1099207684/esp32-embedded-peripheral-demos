@@ -1,0 +1,13 @@
+build/
+managed_components/
+.idea/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.bak
+sdkconfig.old
+*.bin
+*.elf
+*.map
+image.jpg
+dependencies.lock.tmp
