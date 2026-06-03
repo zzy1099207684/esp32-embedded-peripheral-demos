@@ -10,7 +10,7 @@ This repository is organized as two standalone ESP-IDF projects. Each project ke
 
 Captures frames from an OV2640 camera through the ESP32-P4 DVP/ISP pipeline, encodes frames as JPEG, and exports the image stream over UART to a host PC.
 
-Skills demonstrated:
+Technical:
 
 - ESP-IDF project structure
 - ESP32-P4 DVP camera capture
@@ -23,7 +23,7 @@ Skills demonstrated:
 
 Implements a reusable C++ driver for the TCA9555 16-bit I2C GPIO expander and demonstrates LED/button I/O patterns.
 
-Skills demonstrated:
+Technical:
 
 - I2C peripheral communication
 - Register-level GPIO expander control
@@ -35,7 +35,7 @@ Skills demonstrated:
 
 Provides a basic 4-phase stepper motor component with full-step and half-step GPIO sequencing.
 
-Skills demonstrated:
+Technical:
 
 - GPIO-based motor sequencing
 - Full-step and half-step control patterns
@@ -83,7 +83,7 @@ idf.py build
 
 这个 demo 使用 OV2640 摄像头，通过 ESP32-P4 的 DVP/ISP 流程采集图像，将帧数据编码成 JPEG，再通过 UART 发送到电脑端脚本保存。
 
-展示技能：
+涉及技术：
 
 - ESP-IDF 项目结构
 - ESP32-P4 DVP 摄像头采集
@@ -96,7 +96,7 @@ idf.py build
 
 这个 demo 实现了 TCA9555 16 位 I2C GPIO 扩展芯片的 C++ 驱动，并提供 LED/按钮相关示例。
 
-展示技能：
+涉及技术：
 
 - I2C 外设通信
 - 寄存器级 GPIO 扩展芯片控制
@@ -108,7 +108,7 @@ idf.py build
 
 这个组件提供基础 4 相步进电机 GPIO 时序控制，包含全步和半步模式。
 
-展示技能：
+涉及技术：
 
 - GPIO 电机相序控制
 - 全步和半步控制 pattern
