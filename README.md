@@ -83,7 +83,6 @@ idf.py build
 
 这个 demo 使用 OV2640 摄像头，通过 ESP32-P4 的 DVP/ISP 流程采集图像，将帧数据编码成 JPEG，再通过 UART 发送到电脑端脚本保存。
 
-涉及技术：
 
 - ESP-IDF 项目结构
 - ESP32-P4 DVP 摄像头采集
@@ -96,7 +95,6 @@ idf.py build
 
 这个 demo 实现了 TCA9555 16 位 I2C GPIO 扩展芯片的 C++ 驱动，并提供 LED/按钮相关示例。
 
-涉及技术：
 
 - I2C 外设通信
 - 寄存器级 GPIO 扩展芯片控制
@@ -108,7 +106,6 @@ idf.py build
 
 这个组件提供基础 4 相步进电机 GPIO 时序控制，包含全步和半步模式。
 
-涉及技术：
 
 - GPIO 电机相序控制
 - 全步和半步控制 pattern
