@@ -79,8 +79,6 @@ idf.py build
 
 这是一个用于展示 ESP32 嵌入式外设开发经验的 demo 集合，包含 ESP32-P4 和 ESP32-S3 两个独立 ESP-IDF 项目。
 
-仓库只保留源码、可复用组件、构建配置和说明文档。`build/`、`managed_components/`、IDE 配置、缓存文件和生成文件不放进仓库。
-
 ### ESP32-P4 Camera JPEG Stream
 
 这个 demo 使用 OV2640 摄像头，通过 ESP32-P4 的 DVP/ISP 流程采集图像，将帧数据编码成 JPEG，再通过 UART 发送到电脑端脚本保存。
